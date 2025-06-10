@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Pesudo classes</title>
+        <style>
+            body{
+                background-color:rgb(185, 245, 215);
+            }
+            ul li {
+                  text-transform:capitalize;
+                  font-weight: bold;
+                  color:black;
+                  font-family: fantasy;
+            }
+            ul li:hover
+            {
+                color: forestgreen;
+            }
+            h1{
+                color:black;
+                background-color: darkgrey;
+                font-family: monospace;
+                text-align: center;
+            } 
+            ul li:nth-child(1)
+            {
+                background-color: lawngreen;
+            }
+            ul li::before{
+                content:"😈" ;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <ul>
+            <li>Supra mk4</li>
+            <li>Ferrari</li>
+            <li>Chevrolet</li>
+            <li>Jaguar</li>
+            <li>Pagani Huayra</li>
+        </ul>
+    </body>
+</html>
