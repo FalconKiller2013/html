@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Javascript class</title>
+    </head>
+    <body>
+        <p id="student1"></p>
+        <p id="student2"></p>
+        <script>
+            class student{
+                constructor(name,year){
+                    this.name=name;
+                    this.year=year;
+                }
+            }
+            student1=new student("Behrawer",12);
+            document.getElementById("student1").innerHTML="My name is "+student1.name+" I am "+student1.year+" years old";
+        </script>
+    </body>
+</html>
