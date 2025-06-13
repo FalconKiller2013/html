@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Array mapping and sorting</title>
+    </head>
+    <body>
+        <p>Mutiply any element in the list with 10:</p>
+        <p id="value"></p>
+        <script>
+            var number=[10,75,54,67,89,12,13,24,57];
+            function myFunction(num){
+                return num*10;
+            }
+            var result=number.map(myFunction);
+            document.getElementById("value").innerHTML=result;
+        </script>
+    </body>
+</html>
