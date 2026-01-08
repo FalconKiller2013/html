@@ -35,7 +35,7 @@ while running:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT] and player_x > 0:
       player_x -= player_speed
-    if keys[pygame.K_RIGHT] and player_x < 0:
+    if keys[pygame.K_RIGHT] and player_x < 736:
       player_x += player_speed
 
     enemy_y +=enemy_speed
